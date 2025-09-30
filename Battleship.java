@@ -6,9 +6,12 @@ import java.util.Random;
  * Player vs computer on a 4x4 board.
  *
  * Not taught:
- * java.util.Random: https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
- * ANSI escape color codes: https://en.wikipedia.org/wiki/ANSI_escape_code
- * 2D arrays (String[][]): https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
+ * java.util.Random:
+ * https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
+ * ANSI escape color codes:
+ * https://en.wikipedia.org/wiki/ANSI_escape_code
+ * 2D arrays (String[][]):
+ * https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html
  *
  * Symbols:
  * 0 = empty water
