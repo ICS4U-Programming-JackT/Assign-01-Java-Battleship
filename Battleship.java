@@ -6,8 +6,6 @@ import java.util.Random;
  * Player vs computer on a 4x4 board.
  *
  * Not taught:
- * java.util.Random:
- * https://docs.oracle.com/javase/8/docs/api/java/util/Random.html
  * ANSI escape color codes:
  * https://en.wikipedia.org/wiki/ANSI_escape_code
  * 2D arrays (String[][]):
@@ -31,7 +29,6 @@ public final class Battleship {
     private static final Scanner SCANNER = new Scanner(System.in);
 
     /** Random number generator for computer moves. */
-    // NOTE: java.util.Random may not be covered yet
     private static final Random RAND = new Random();
 
     /** Symbol representing empty water. */
@@ -47,7 +44,6 @@ public final class Battleship {
     private static final String MISS = "M";
 
     /** Reset color code (goes back to normal text). */
-    // NOTE: ANSI color codes not part of core Java curriculum
     private static final String RESET = "\u001B[0m";
 
     /** Red color code for hits. */
@@ -103,7 +99,6 @@ public final class Battleship {
         }
 
         // Create player and enemy boards with ships placed
-        // NOTE: 2D arrays (String[][]) may not be introduced yet in Gr.12
         String[][] playerGrid = setupGrid(4, 4);
         String[][] enemyGrid = setupGrid(4, 4);
 
